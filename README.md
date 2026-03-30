@@ -42,7 +42,7 @@ A ideia é avaliar o retorno líquido e comparável entre diferentes ativos.
 
 ## 📈 Exemplo
 
-![Comparação de investimentos](./images/Comparação_de_Retornos.png)
+![Comparação de investimentos](./images/Compara%C3%A7%C3%A3o%20de%20Retornos.png)
 
 ---
 
