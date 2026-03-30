@@ -1,131 +1,116 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2868
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww13440\viewh9600\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+# Comparador de Investimentos — Renda Fixa vs IBOV11
 
-\f0\fs28 \cf0 \
-# Comparador de Investimentos \'97 Renda Fixa vs IBOV11\
-\
-Este projeto consiste em um modelo em Excel para simula\'e7\'e3o e compara\'e7\'e3o de investimentos em renda fixa e renda vari\'e1vel (IBOV11), considerando impostos, custos e diferentes premissas de mercado.\
-\
----\
-\
-## Objetivo\
-\
-Comparar diferentes alternativas de investimento de forma realista, considerando:\
-\
-- Aporte inicial e prazo\
-- Taxas de juros (CDI, Selic, IPCA)\
-- Tributa\'e7\'e3o (IR regressivo e isen\'e7\'f5es)\
-- Custos (cust\'f3dia B3 e TER de ETF)\
-\
-A ideia \'e9 avaliar o retorno **l\'edquido e compar\'e1vel** entre diferentes ativos.\
-\
----\
-\
-## O que a planilha faz\
-\
-- Simula crescimento do investimento ao longo do tempo\
-- Calcula valor bruto e l\'edquido\
-- Aplica regras reais de tributa\'e7\'e3o no Brasil\
-- Considera custos como cust\'f3dia e taxa de ETF\
-- Permite alterar premissas facilmente (c\'e9lulas edit\'e1veis)\
-- Gera ranking entre os investimentos\
-\
----\
-\
-## Ativos analisados\
-\
-- Tesouro Selic  \
-- Tesouro IPCA+  \
-- Tesouro Prefixado  \
-- CDB (% do CDI)  \
-- LCI / LCA (isentos de IR)  \
-- Poupan\'e7a  \
-- IBOV11 (ETF de renda vari\'e1vel)\
-\
----\
-\
-## \uc0\u55357 \u56520  Exemplo\
-\
-![Compara\'e7\'e3o de investimentos](./images/dashboard.png)\
-\
----\
-\
-## Interpreta\'e7\'e3o dos resultados\
-\
-### 1. Impacto da tributa\'e7\'e3o\
-\
-- O IR reduz significativamente o retorno de produtos tributados (CDB, Tesouro)\
-- LCI e LCA, por serem isentas, conseguem competir com taxas menores\
-\
-Obs.: Nem sempre o maior rendimento bruto \'e9 o melhor no final\
-\
----\
-\
-### 2. Import\'e2ncia do cen\'e1rio de juros\
-\
-- Com taxas de juros elevadas (CDI alto), a renda fixa tende a performar muito bem\
-- Em cen\'e1rios assim, pode competir diretamente com renda vari\'e1vel\
-\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 Obs.: Isso \'e9 t\'edpico do Brasil em per\'edodos de juros altos\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
----\
-\
-### 3. IBOV11 depende de premissas\
-\
-- O retorno da renda vari\'e1vel \'e9 baseado em uma estimativa (n\'e3o garantido)\
-- Pequenas mudan\'e7as nessa premissa alteram bastante o resultado\
-\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 Obs.: Diferente da renda fixa, n\'e3o h\'e1 previsibilidade\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
----\
-\
-### 4. Compara\'e7\'e3o l\'edquida \'e9 essencial\
-\
-- Comparar retornos brutos leva a conclus\'f5es erradas\
-- O modelo mostra o impacto real de impostos e custos\
-\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 Obs.:  A an\'e1lise correta deve sempre ser feita em termos l\'edquidos\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
----\
-\
-### 5. Tempo e juros compostos\
-\
-- Quanto maior o prazo, maior o impacto dos juros compostos\
-- Pequenas diferen\'e7as de taxa se tornam relevantes no longo prazo\
-\
----\
-\
-## \uc0\u9888 \u65039  Limita\'e7\'f5es\
-\
-- O retorno do IBOV11 \'e9 uma estimativa, n\'e3o uma previs\'e3o\
-- N\'e3o considera volatilidade ou risco de mercado\
-- N\'e3o incorpora cen\'e1rios din\'e2micos (taxas constantes)\
-- N\'e3o substitui uma an\'e1lise completa de investimentos\
-\
----\
-\
-## Conclus\'e3o\
-\
-O modelo mostra que:\
-\
-- A renda fixa pode ser altamente competitiva em cen\'e1rios de juros elevados\
-- Impostos e custos t\'eam impacto relevante no retorno final\
-- Compara\'e7\'f5es devem sempre ser feitas com base em retorno l\'edquido\
-- A renda vari\'e1vel depende fortemente das premissas adotadas\
-\
----\
-\
-## \uc0\u9888 \u65039  Aviso\
-\
-Esta planilha tem car\'e1ter educacional e n\'e3o constitui recomenda\'e7\'e3o de investimento.\
-}
+Este projeto consiste em um modelo em Excel para simulação e comparação de investimentos em renda fixa e renda variável (IBOV11), considerando impostos, custos e diferentes premissas de mercado.
+
+---
+
+## Objetivo
+
+Comparar diferentes alternativas de investimento de forma realista, considerando:
+
+- aporte inicial e prazo
+- taxas de juros (CDI, Selic e IPCA)
+- tributação (IR regressivo e isenções)
+- custos (custódia B3 e TER do ETF)
+
+A ideia é avaliar o retorno líquido e comparável entre diferentes ativos.
+
+---
+
+## ⚙️ O que a planilha faz
+
+- simula o crescimento do investimento ao longo do tempo
+- calcula valor bruto e valor líquido
+- aplica regras reais de tributação no Brasil
+- considera custos como custódia e taxa de ETF
+- permite alterar premissas facilmente por meio de células editáveis
+- gera ranking entre os investimentos
+
+---
+
+## Ativos analisados
+
+- Tesouro Selic
+- Tesouro IPCA+
+- Tesouro Prefixado
+- CDB (% do CDI)
+- LCI / LCA (isentos de IR)
+- Poupança
+- IBOV11 (ETF de renda variável)
+
+---
+
+## 📈 Exemplo
+
+![Comparação de investimentos](./images/Compara%C3%A7%C3%A3o%20de%20Retornos.png)
+
+---
+
+## Interpretação dos resultados
+
+### 1. Impacto da tributação
+
+- O IR reduz significativamente o retorno de produtos tributados, como CDB e Tesouro.
+- LCI e LCA, por serem isentas, conseguem competir mesmo com taxas menores.
+
+**Insight:** nem sempre o maior rendimento bruto é o melhor no final.
+
+---
+
+### 2. Importância do cenário de juros
+
+- Com taxas de juros elevadas (CDI alto), a renda fixa tende a performar muito bem.
+- Em cenários assim, ela pode competir diretamente com a renda variável.
+
+**Insight:** isso é típico do Brasil em períodos de juros altos.
+
+---
+
+### 3. IBOV11 depende de premissas
+
+- O retorno da renda variável é baseado em uma estimativa, não em uma garantia.
+- Pequenas mudanças nessa premissa alteram bastante o resultado final.
+
+**Insight:** diferente da renda fixa, a renda variável não oferece previsibilidade de retorno.
+
+---
+
+### 4. Comparação líquida é essencial
+
+- Comparar investimentos apenas pelo retorno bruto pode levar a conclusões erradas.
+- O modelo mostra o impacto real de impostos e custos sobre o resultado final.
+
+**Insight:** a análise correta deve ser feita em termos líquidos.
+
+---
+
+### 5. Tempo e juros compostos
+
+- Quanto maior o prazo, maior o impacto dos juros compostos.
+- Pequenas diferenças de taxa se tornam relevantes no longo prazo.
+
+---
+
+## ⚠️ Limitações
+
+- O retorno do IBOV11 é uma estimativa, não uma previsão.
+- O modelo não considera volatilidade nem risco de mercado.
+- Não incorpora cenários dinâmicos; as taxas são tratadas como constantes.
+- Não substitui uma análise completa de investimentos.
+
+---
+
+## Conclusão
+
+O modelo mostra que:
+
+- a renda fixa pode ser altamente competitiva em cenários de juros elevados
+- impostos e custos têm impacto relevante no retorno final
+- comparações devem ser feitas com base em retorno líquido
+- a renda variável depende fortemente das premissas adotadas
+
+---
+
+## ⚠️ Aviso
+
+Esta planilha tem caráter educacional e não constitui recomendação de investimento.
