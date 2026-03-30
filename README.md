@@ -28,7 +28,7 @@ A ideia é avaliar o retorno líquido e comparável entre diferentes ativos.
 
 ---
 
-## 📊 Ativos analisados
+## Ativos analisados
 
 - Tesouro Selic
 - Tesouro IPCA+
@@ -42,11 +42,11 @@ A ideia é avaliar o retorno líquido e comparável entre diferentes ativos.
 
 ## 📈 Exemplo
 
-![Comparação de investimentos](./images/dashboard.png)
+![Comparação de investimentos](./images/Comparação de Retornos.png)
 
 ---
 
-## 🧠 Interpretação dos resultados
+## Interpretação dos resultados
 
 ### 1. Impacto da tributação
 
